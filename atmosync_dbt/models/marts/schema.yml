@@ -1,0 +1,47 @@
+version: 2
+
+models:
+  - name: container_health_summary
+    description: "Container-level health and risk summary for AtmoSync."
+
+    columns:
+      - name: container_id
+        description: "Shipping container identifier."
+        data_tests:
+          - not_null
+          - unique
+
+      - name: commodity
+        description: "Commodity being transported."
+        data_tests:
+          - not_null
+
+      - name: total_events
+        description: "Number of telemetry events recorded for the container."
+        data_tests:
+          - not_null
+
+      - name: avg_temperature
+        description: "Average recorded container temperature."
+        data_tests:
+          - not_null
+
+      - name: avg_humidity
+        description: "Average recorded container humidity."
+        data_tests:
+          - not_null
+
+      - name: avg_vibration
+        description: "Average recorded container vibration."
+        data_tests:
+          - not_null
+
+      - name: alert_count
+        description: "Number of alert-level telemetry events."
+        data_tests:
+          - not_null
+
+      - name: container_status
+        description: "Overall container health status."
+        data_tests:
+          - not_null

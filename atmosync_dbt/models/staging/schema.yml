@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  - name: stg_container_telemetry
+    description: "Cleaned and standardized container telemetry events."
+
+    columns:
+      - name: event_id
+        description: "Unique identifier for each telemetry event."
+        data_tests:
+          - not_null
+          - unique
+
+      - name: container_id
+        description: "Identifier of the shipping container."
+        data_tests:
+          - not_null
+
+      - name: event_timestamp
+        description: "Timestamp when the telemetry event was generated."
+        data_tests:
+          - not_null
+
+      - name: commodity
+        description: "Commodity being transported."
+        data_tests:
+          - not_null
+
+      - name: temperature
+        description: "Container temperature in Celsius."
+        data_tests:
+          - not_null
+
+      - name: humidity
+        description: "Container humidity percentage."
+        data_tests:
+          - not_null
+
+      - name: vibration
+        description: "Container vibration measurement."
+        data_tests:
+          - not_null
