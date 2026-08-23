@@ -1,0 +1,17 @@
+commodity,market,price_per_kg,price_date
+Avocado,Delhi,180,2026-08-17
+Avocado,Jaipur,195,2026-08-17
+Avocado,Noida,188,2026-08-17
+Avocado,Agra,175,2026-08-17
+Banana,Delhi,55,2026-08-17
+Banana,Jaipur,62,2026-08-17
+Banana,Noida,58,2026-08-17
+Banana,Agra,52,2026-08-17
+Mango,Delhi,140,2026-08-17
+Mango,Jaipur,155,2026-08-17
+Mango,Noida,150,2026-08-17
+Mango,Lucknow,125,2026-08-17
+Apple,Delhi,160,2026-08-17
+Apple,Jaipur,172,2026-08-17
+Apple,Noida,168,2026-08-17
+Apple,Agra,150,2026-08-17
