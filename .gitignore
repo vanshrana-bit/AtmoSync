@@ -1,40 +1,17 @@
-# Environment & secrets
-.env
-.env.*
-!.env.example
-
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-.venv/
-venv/
-ENV/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# IDE
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-logs/
-
-# dbt
-target/
-dbt_packages/
-logs/
-
-# Data files
-*.tmp
-*.bak
-
 # Snowflake
 *.pem
 *.p8
+
+# Environment
+.env
+.env.*
+
+# Superset
+superset/
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.pyc
