@@ -44,4 +44,4 @@ models:
       - name: container_status
         description: "Overall container health status."
         data_tests:
-          - not_null2
+          - not_null
